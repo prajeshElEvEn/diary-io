@@ -62,7 +62,7 @@ const WritePage = () => {
                 }
                 await push(entryRef, entry)
                 setDiaryEntry('')
-                nav('/home')
+                nav('/diary-io/home')
             } else {
                 toast.warn("You didn't select an emoji, did you? 😪", {
                     theme: 'dark',

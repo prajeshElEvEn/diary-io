@@ -22,7 +22,7 @@ const LoginPage = () => {
                     localStorage.clear()
                     localStorage.setItem('userName', users[key].userName)
                     setLog(1)
-                    nav('/home')
+                    nav('/diary-io/home')
                 }
             }
             if (log !== 1) {

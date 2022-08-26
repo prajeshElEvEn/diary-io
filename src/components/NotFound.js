@@ -16,7 +16,7 @@ const NotFound = () => {
                 </div>
                 <div className='tip'>
                     <div className='tip-text'>
-                        <Link to='/'>
+                        <Link to='/diary-io'>
                             Return to Home ✨
                         </Link>
                     </div>

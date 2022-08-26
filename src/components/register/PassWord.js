@@ -22,7 +22,7 @@ const PassWord = () => {
                 }
                 await push(userRef, user)
                 localStorage.removeItem('password')
-                nav('/home')
+                nav('/diary-io/home')
             } else {
                 toast.warn('I said 8-12 characters 😤!', {
                     theme: 'dark',

@@ -15,14 +15,14 @@ function App() {
     <div>
       <Routes>
         <Route path="*" element={<NotFound />} />
-        <Route path="/" element={<DiaryName />} />
-        <Route path="/username" element={<UserName />} />
-        <Route path="/password" element={<PassWord />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/diary" element={<WritePage />} />
-        <Route path="/edit" element={<EditPage />} />
-        <Route path="/show" element={<ShowPage />} />
+        <Route path="/diary-io" element={<DiaryName />} />
+        <Route path="/diary-io/username" element={<UserName />} />
+        <Route path="/diary-io/password" element={<PassWord />} />
+        <Route path="/diary-io/login" element={<LoginPage />} />
+        <Route path="/diary-io/home" element={<HomePage />} />
+        <Route path="/diary-io/diary" element={<WritePage />} />
+        <Route path="/diary-io/edit" element={<EditPage />} />
+        <Route path="/diary-io/show" element={<ShowPage />} />
       </Routes>
     </div>
   );

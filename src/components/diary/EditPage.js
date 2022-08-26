@@ -64,7 +64,7 @@ const EditPage = () => {
                     entry: newEntry
                 }
                 await set(entryRef, entry)
-                nav('/home')
+                nav('/diary-io/home')
             } else {
                 toast.warn("You forgot the emoji 😭!", {
                     theme: 'dark',

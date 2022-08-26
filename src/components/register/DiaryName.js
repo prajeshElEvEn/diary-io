@@ -13,7 +13,7 @@ const DiaryName = () => {
             if (diaryName.length < 16) {
                 localStorage.clear()
                 localStorage.setItem('diaryName', diaryName)
-                nav('/username')
+                nav('/diary-io/username')
             } else {
                 toast.warn('I said less than 16 characters 😤', {
                     theme: 'dark',
@@ -68,7 +68,7 @@ const DiaryName = () => {
                     <div className='login-text'>
                         Do you already have a diary?
                     </div>
-                    <Link to='/login'>
+                    <Link to='/diary-io/login'>
                         Get in
                     </Link>
                 </div>

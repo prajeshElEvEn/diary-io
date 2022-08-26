@@ -28,7 +28,7 @@ const UserName = () => {
                     });
                 } else {
                     localStorage.setItem('userName', userName)
-                    nav('/password')
+                    nav('/diary-io/password')
                 }
             } else {
                 toast.warn('I said less than 12 characters 😤', {

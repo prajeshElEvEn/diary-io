@@ -38,7 +38,7 @@ When everything is online, why not make an e-diary? Ladies & Gentlemen, we bring
 
 ## View Here
 
-[diary.io](https://prajesheleven.github.io/)
+[diary.io](https://prajesheleven.github.io/diary-io/)
 
 ### Idea by [@Homanly30](https://github.com/Homanly30)
 

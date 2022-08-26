@@ -12,21 +12,21 @@ const HomePage = () => {
 
     const showEntry = (entryId) => {
         localStorage.setItem('currentEntryId', entryId)
-        nav('/show')
+        nav('/diary-io/show')
     }
 
     const editEntry = (entryId) => {
         localStorage.setItem('currentEntryId', entryId)
-        nav('/edit')
+        nav('/diary-io/edit')
     }
 
     const addEntry = () => {
-        nav('/diary')
+        nav('/diary-io/diary')
     }
 
     const logout = () => {
         localStorage.clear()
-        nav('/')
+        nav('/diary-io')
     }
 
     useEffect(() => {
