@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="*" element={<NotFound />} />
+        <Route path="/diary-io/*" element={<NotFound />} />
         <Route path="/diary-io" element={<DiaryName />} />
         <Route path="/diary-io/username" element={<UserName />} />
         <Route path="/diary-io/password" element={<PassWord />} />
